@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Karma', serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+body{
+    position: relative;
+    top: 0;
+    height: 1000px;
+    width: 100%;
+}
+
+/* Nav Bar */
+#navbar{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    height: 68px;
+    background: white;
+    box-shadow: 0px 1px rgb(131, 129, 129);
+    top: 0;
+    position: sticky;
+}
+.navDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+#menu{
+    padding:16px 16px;
+    cursor: pointer;
+}
+#menu:hover{
+    background: rgb(197, 196, 196);
+}
+.navHead{
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0px 16px;
+    font-weight: 400;
+
+}
+#slideMenu{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 40%;
+    background: white;
+    box-shadow: 1px 0px rgb(197, 196, 196);
+    z-index: 1;
+    animation: example 0.2s ease ;
+}
+@keyframes example {
+    from{ width: 0%;}
+    to{ width: 40%;}
+}
+.menuList{
+    list-style-type: none;
+    align-items: center;
+    font-size: 24px;
+    width: 100%;
+    height: 68px;
+    background: white;
+    padding:16px 16px;
+
+}
+.menuList:hover{
+    background:  rgb(197, 196, 196);
+}
+.menuAnchor{
+    cursor: pointer;
+    padding:16px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Main Div */
+#mainDiv{
+    max-width: 1200px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Food Menu Section */
+.colFirst{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 610px;
+    padding: 16px 10px;
+    width: 100%;
+    margin: 15px 0px;
+}
+.foodMenu{
+    padding: 0px 8px;
+    height: 580px;
+    width: 24%;
+}
+.foodImg{
+    height: 70%;
+    width: 100%;
+}
+.foodData{
+    margin: 15px 0px;
+    font-size: 16px;
+}
+.foodName{
+    margin: 15px 0px;
+}
+
+/* next page section */
+#pages{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.pageNo{
+    text-decoration: none;
+    display: inline;
+    color: black;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+.pageNo:hover{
+    background: black;
+    color: white;
+}
+.first{
+    background: black;
+    color: white;
+}
+.first:hover{
+    background: rgb(175, 174, 174);
+    color: black;
+}
+
+/* about section */
+#about{
+    padding: 20px 0px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.aboutHead{
+    padding: 20px 0px;
+}
+.aboutImg{
+    max-width: 100%;
+    padding: 10px 0px;
+}
+.bold{
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.subhead{
+    font-size: 16px;
+    font-style: italic;
+}
+.aboutTxt{
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+/* footer Section */
+#end{
+    padding: 50px 10px;
+}
+#footerDiv{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 32%;
+}
+.footerHead{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+}
+.footerP{
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    padding: 10px 0px;
+}
+
+.blogList{
+    display: flex;
+    padding: 16px 16px;
+    list-style-type: none;
+    width: 100%;
+
+}
+
+.footerImg{
+    width: 15%;
+}
+.blogH{
+    text-align: left;
+    padding: 0px 12px;
+    font-size: 20px;
+}
+.blogP{
+    text-align: left;
+    font-size: 16px;  
+    padding: 0px 12px;
+
+}
+.forBor{
+    border-bottom: 1px solid rgb(219, 219, 219);
+
+}
+.blogList:hover{
+    background: rgb(197, 196, 196);
+}
+
+.tags{
+    display: flex;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+.tagList{
+    list-style-type: none;
+    width: 15%;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 2px 4px;
+    font-size: 11px;
+    color: white;
+    background: gray;
+}
+.travel{
+    font-size: 12px;
+    background: black;
+    padding: 3px 6px;
+}
